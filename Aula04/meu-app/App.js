@@ -22,8 +22,8 @@ export default function HidratacaoApp() {
 }
 const styles = StyleSheet.create({
   container: { flex: 1, alignItems: 'center', justifyContent: 'center', backgroundColor: '#FFDAB9' },
-  meta:       { color: '#4B0082', fontSize: 16, marginBottom: 12 },
-  counter:   { color: '#fff', fontSize: 72, fontWeight: 'bold' },
-  btn:       { marginTop: 24, backgroundColor: '#6c63ff', paddingHorizontal: 40, paddingVertical: 16, borderRadius: 50 },
-  btnText:   { color: '#fff', fontSize: 20, fontWeight: 'bold' },
+  meta:       { color: '#4B0082', fontSize: 25, marginBottom: 12 },
+  counter:   { color: '#fff', fontSize: 80, fontWeight: 'bold' },
+  btn:       { marginTop: 24, backgroundColor: '#00008B', paddingHorizontal: 40, paddingVertical: 16, borderRadius: 50 },
+  btnText:   { color: '#fff', fontSize: 25, fontWeight: 'bold' },
 });
