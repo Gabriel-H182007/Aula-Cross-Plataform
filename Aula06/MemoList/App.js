@@ -39,8 +39,8 @@ export default function App() {
   salvarTarefas(novaLista); 
 };
 const limparTudo = async () => {
-  setTarefas([]); // limpa da tela
-  await AsyncStorage.removeItem('tarefas'); // limpa do storage
+  setTarefas([]);
+  await AsyncStorage.removeItem('tarefas'); 
 };
 const pendentes = tarefas.filter(t => !t.concluida).length;
   return (
